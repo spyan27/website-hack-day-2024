@@ -1,7 +1,23 @@
 h1 {
     color:blue;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 p {
     color:blueviolet;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: pink;
+}
+
+.content {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.profile {
+    border-radius: 50%
+}
+
+nav {
+    background-color: #91D1C7   
 }
