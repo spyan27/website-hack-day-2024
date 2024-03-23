@@ -1,23 +1,73 @@
 h1 {
-    color:blue;
-    font-family: 'Gill Sans', sans-serif;
+    color:#00AEAE;
+    font-family: Sans-serif;
+    font-size: 300px;
 }
 
 p {
-    color:blueviolet;
-    font-family: 'Gill Sans', sans-serif;
-    background-color: pink;
+    color: #616A6B;
+    font-family: Sans-serif;
+    font-size: 20px; 
 }
 
 .content {
-    margin-top: 70px;
-    padding: 20px;
+    padding: 60px;
+    background-color:aliceblue;
 }
 
 .profile {
-    border-radius: 50%
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.profile-spacing{
+    background-color: #efefee;
+    font-family: Sans-serif;
+    border: 2px solid black;
+    margin: 20px;
 }
 
 nav {
-    background-color: #91D1C7   
+    background-color: #00AEAE;
+    padding: 10px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+
+.nav-link {
+    margin-right: 50px;
+    color: #616A6B;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 25px; 
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+  }
+
+.text-spacing {
+    margin: 100px;
+    text-align: end;
+}
+
+.icon-spacing {
+    padding-top: 5px;
+}
+
+.icon-margin {
+    padding-left: 65px;
+}
+
+.rectangle {
+    background-color: blue;
+    height: 30px;
 }
